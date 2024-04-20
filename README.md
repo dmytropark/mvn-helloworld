@@ -1,3 +1,16 @@
-# Apache Maven: Beginner to Guru
+# Maven Wrapper
 
-This respository contains code examples for the online course [Apache Maven: Beginner to Guru.](https://www.udemy.com/draft/2043700/?couponCode=GITHUB_REPO)
+## Wrapper makes you code more portable
+## use next plugin to setup wrapper: 
+
+```
+ mvn -N io.takari:maven:wrapper -Dmaven=3.9.6
+```
+then check
+```
+./mvnw --version
+```
+or for Windows
+```
+./mvnw.cmd --version
+```
