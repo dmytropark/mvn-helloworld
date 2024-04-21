@@ -1,3 +1,7 @@
-# Apache Maven: Beginner to Guru
+# Maven Resources Plugin
 
-This respository contains code examples for the online course [Apache Maven: Beginner to Guru.](https://www.udemy.com/draft/2043700/?couponCode=GITHUB_REPO)
+## if you run `mvn resources:resources` you will find out next action:
+
+```
+ Copying 1 resource from src/main/resources to target/classes
+```
